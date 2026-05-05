@@ -21,9 +21,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: 赋予 gradlew 执行权限
-        run: chmod +x ./gradlew
-
       - name: 缓存 Gradle
         uses: gradle/gradle-build-action@v3
 
